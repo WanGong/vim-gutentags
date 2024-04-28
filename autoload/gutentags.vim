@@ -647,7 +647,8 @@ if has('nvim')
                 \    ['gutentags#default_stdout_cb']),
                 \'on_stderr': function(
                 \    '<SID>nvim_job_out_wrapper',
-                \    ['gutentags#default_stderr_cb'])
+                \    ['gutentags#default_stderr_cb']),
+                \'detach': 1
                 \}
        return l:job_opts
     endfunction
